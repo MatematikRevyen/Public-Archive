@@ -1,0 +1,188 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx, amsfonts, palatino}
+\usepackage{multicols, verse, color}
+
+% Setting pagesize to widescreen format
+\setlength{\paperwidth}{178mm}
+\setlength{\paperheight}{100mm}
+\setlength{\paperwidth}{0.75\paperwidth}
+\setlength{\paperheight}{0.75\paperheight}
+%\setlength{\paperwidth}{267mm}
+%\setlength{\paperheight}{150mm}
+\pdfpagewidth=\paperwidth
+\pdfpageheight=\paperheight
+
+%Setting margin
+\setlength{\hoffset}{-1in}%2
+\setlength{\oddsidemargin}{0pt}%3
+\setlength{\marginparsep}{0pt}%9
+\setlength{\marginparwidth}{0pt}%10
+
+%Setting header
+\setlength{\voffset}{-1in}%2
+\setlength{\topmargin}{0pt}%4
+\setlength{\headheight}{0pt}%5
+\setlength{\headsep}{0pt}%6
+
+%Setting fotter
+\setlength{\footskip}{0pt}%11
+
+%Setting hoffset and voffset
+\addtolength{\hoffset}{5mm}
+\addtolength{\voffset}{10mm}
+
+%Setting textsize
+\setlength{\textwidth}{\paperwidth}
+\addtolength{\textwidth}{-10mm}
+\setlength{\textheight}{\paperheight}
+\addtolength{\textheight}{-20mm}
+
+\newcommand{\alignment}[1]{
+\rule{0.1pt}{0.1pt}\vspace{0.1cm}
+
+#1
+}
+
+\newcommand{\attrib}[1]{%
+  \nopagebreak{\raggedleft\footnotesize #1 \par}
+}
+
+\newcommand{\versestart}{
+  \rule{0.1pt}{0.1pt}
+  \vspace{\stretch{1}}
+}
+
+\newcommand{\verseend}{
+  \vspace{\stretch{2}}
+  \rule{0.1pt}{0.1pt}
+  \newpage
+}
+
+\newcommand{\versetitle}[2]{
+  \rule{0.1pt}{0.1pt}
+  \vspace{\stretch{1}}
+
+  \hspace{\stretch{1}}\textbf{\large{#1}}\hspace{\stretch{1}}
+  \rule{0.1pt}{0.1pt}\\[-5pt]
+
+  \hspace{\stretch{1}}melodi: #2\hspace{\stretch{1}}
+  \vspace{\stretch{3}}
+  \newpage
+}
+
+
+
+\newcommand{\pause}{\newpage%\pagecolor{black}
+\rule{0.1pt}{0.1pt}\newpage %\pagecolor{black}
+}
+
+
+\parindent=0pt
+
+\pagestyle{empty}
+
+\begin{document}
+
+\color{white}
+\pagecolor{black}
+\alignment{
+  \begin{center}
+  \begin{Huge}
+  \textbf{\textsc{Velkommen til}}\\[10pt]
+  \textbf{\textsc{Matematikrevy 2007}}
+  \end{Huge}
+  \end{center}
+}
+
+\pause
+
+\input{introsang.tex}
+
+\pause
+
+\input{intro.tex}
+
+\pause
+
+\input{velkomst}
+
+\pause
+
+\input{dataloger.tex}
+
+\pause
+
+\input{humanister.tex}
+
+\pause
+
+\input{lumberjack.tex}
+
+\pause
+
+\input{bubberogms}\newpage
+
+\pause
+
+\input{fagfascist.tex}
+
+\pause
+
+\input{bryster.tex}
+
+\pause
+
+\input{pik.tex}
+
+\rule{0.1pt}{0.1pt}\vspace{5cm}
+
+\rule{0.1pt}{0.1pt}
+\vspace{\stretch{1}}
+ 
+\hspace{\stretch{1}}\textbf{\Huge{\textsc{pause}}}\hspace{\stretch{1}}
+ 
+\vspace{\stretch{2}}
+
+\pause
+
+\input{sofaen.tex}
+
+\pause
+
+\input{deforboern.tex}
+
+\pause
+
+\input{dansende.tex}
+
+\pause
+
+\input{baby.tex}
+
+\pause
+
+\input{somewhere.tex}
+
+\pause
+
+\input{matematik.tex}
+
+\pause
+
+\input{ects.tex}
+
+\pause
+
+\alignment{
+  \begin{center}
+  \begin{Huge}
+  \textbf{\textsc{Vi ses til festen i}}\\[10pt]
+  \textbf{\textsc{Vandrehallen}}
+  \end{Huge}
+  \end{center}
+}
+
+
+\end{document}
