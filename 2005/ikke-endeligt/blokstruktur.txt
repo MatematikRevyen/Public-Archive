@@ -1,0 +1,29 @@
+\section*{sang om den nye studiestruktur}
+
+Modellen er (modulo hæl og tå) Tom Lehrers "The Elements": 
+ 
+Der er geom1, matIntro, mikøk1, komAn og UVmat
+Sast1, Sast2, ruin, hist1, An3, Liv1 og tværfagmat
+og top og OR2 og mikøk2 og også tværfagmat 
+og makøk3 og mikøk3 og bacproj-akt og bacprojstat 
+Økintro og RepLie, alg2 og geom2 og PDL
+og ModAn, ja og KlasAn, AnvAn, og MI og SDL
+og Regn&Jura2, Sand1, Sand 2, Sand 3 og GeomLie
+og Aktuel og skade1 og Geom3 og GeomRie
+
+Der er LAM, LivStok, Linalg, LivFin og desforuden Vtmat 
+og stat1 og MatM og bacprojmat og Finkont og Anvstat
+Fin1 og makøk2, sand4 og Alg2 og MakØk1
+og bacproj-mat-øk og komAlg og kredibil	og OK1
+	
+Og foruden NumSDL og An1 og Dis1&Alg1
+så er der modalg, klasalg, didmat og Forsik&Jura1 
+og dertil er der matøk1 og NumPDL og Fin2
+og statØ1 og StatØ2, OpAlg, Hist2 og An2 
+Og så er der til overflod alg3 og krypto og DynSys
+og skadestok og stok og ydermere Sast3 og Matfys
+og desforuden Model og Elmtal, algtop og AlgGeo
+og OR1 og stat2 og HomAlg, Algtal og OK2
+
+De fleste heriblandt vil blive udbudt mindst toårligt
+Og hvis der var nogen, jeg glemte, skal det ikke ta's alvorligt
