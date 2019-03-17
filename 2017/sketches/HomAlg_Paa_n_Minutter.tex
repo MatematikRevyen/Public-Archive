@@ -1,0 +1,141 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{revy}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+
+\DeclareMathOperator{\Hom}{Hom}
+%\DeclareMathOperator{\ker}{ker}
+\DeclareMathOperator{\im}{im}
+
+\revyname{MatematikRevyen}
+\revyyear{2017}
+% HUSK AT OPDATERE VERSIONSNUMMER
+\version{1.2}
+\eta{$1$ minutter $32$ sekunder}
+\status{Sandsynligvis færdig}
+
+\title{HomAlg på $n$ minutter}
+\author{Eigil '15}
+
+\begin{document}
+\maketitle
+
+\begin{roles}
+\role{X}[Jakob] Instruktør
+\role{F}[Eigil] Forelæser
+\end{roles}
+
+\begin{props}
+\prop{}
+\end{props}
+
+
+\begin{sketch}
+
+\says{F}
+
+\scene{Lys op. F står på scenen. I løbet af sketchen vises slideshow.}
+
+\says{F} Matematikrevyen har i år fået et noget højere akademisk niveau, end sædvanligt.
+For at russer også skal kunne følge med, har vi indlagt et lynkursus i homologisk algebra.
+Der er nødudgange her, her, her, her og her. \act{Resten af replikkerne leveres i et hurtigt tempo, men VELARTIKULERET}
+
+\scene{Slide: Aksiomerne for et modul over $R$ - ie $r(a+b) = ra + rb$ etc}
+
+\says{F} Et modul er et vektorrum over en ring.
+
+\scene{Slide: Definitionen af $\Hom$}
+
+\says{F} Mængden af modulhomomorfier fra $A$ til $B$ er en abelsk gruppe, og kaldes $\Hom(A,B)$\says {F} 
+
+\scene{Slide: Definitionen af $\otimes$ og tensor-hom adjunktionen}
+
+\says{F} $A \otimes B$ (Læses "$A$ tensor $B$") er den abelske gruppe som representerer $R$-biliniære afbildinger ud af $A \times B$ (Læses "$A$ kryds $B$"). Tensor er venstreadjungeret til Hom. 
+
+
+\scene{Slide: En lang eksakt følge, $\im f= \ker f$. Nedenunder: en kort eksakt følge}
+
+\says{F} En lang eksakt følge består af en følge af moduler $A_n$, og en modulhomomorfi $A_n$ til $A_{n-1}$, således at kernen af $f$ lig billedet af $f$. \\
+En kort eksakt følge er en lang eksakt følge med $A_n = 0$ udover for $n=1,2,3$
+
+
+\scene{Slide: Et kædekompleks. $\im f \subset \ker f$. $H_n$ af et kædekompleks}
+
+\says{F} Et kædekompleks er ligesom en lang eksakt følge, men med billedet af $f$ en delmængde af kernen af $f$. \\
+Homologien af et kædekompleks er kernen af $f$ mod billedet af $f$. \\ \act{Stopper op og siger i lavere tempo, som en sidebemærkning} Her skal jeg forresten nævne, at man ikke må have åben ild i salen.
+
+\scene{Slide: Fem-lemmaet}
+
+\says{F} Fem-lemmaet siger at hvis de lodrette morfier udover den midterste er isomorfier
+og rækkerne er korte eksakte følger i dette diagram, og det kommuterer, er den midterste også en isomorfi. 
+
+\scene{Slide: Slangelemmaet}
+
+\says{F} Slangelemmaet siger at hvis dette diagram kommuterer og har eksakte rækker findes en eksakt følge: kernen af $f$ til kernen af $g$ til kernen af $h$ til co-kernen af $f$ til co-kernen af $g$ til co-kernen af $h$.
+
+\scene{Slide: Definitionen på en kategori}
+
+\says{F} En kategori har objekter og morfier. Hver morfi har et domæne og et kodomæne, som er objekter. En pil med domæne $A$ kan sammensættes med en pil med kodomæne $A$ - sammensætning er associativ og har en identitet for hvert objekt. En kategori kan også være additiv eller abelsk. Det meste af det vi har konstrueret for moduler, kan generaliseres til abelske kategorier.
+
+\scene{Slide: Definitionen på en funktor}
+
+\says{F} En funktor er en afbilding mellem kategorier, som fører objekter til objekter,
+morfier til morfier, og bevarer domæne, kodomæne, identiteter og sammensætning. \\
+En funktor kan også vende pile, så er den kontravariant.
+
+\scene{Slide: Definitionen af $\otimes$ og $\Hom$ på morfier}
+
+\says{F} Tensor og Hom er funktorer hvis man fastholder det ene modul.
+
+%\scene{Slide: Definitionen på en naturlig transofrmation}
+%\says{F} En naturlig transformation mellem to funktorer $F$ og $G$ består af en afbilding fra $FA$ til $GA$ for hvert objekt $A$, så det oplagte diagram kommuterer.
+
+\scene{Slide: Definitionen på adjunktion (med naturlig isomorfi)}
+
+\says{F} $F$ fra $\mathcal{C}$ til $\mathcal{D}$ er venstreadjungeret til $G$ fra $\mathcal{D}$ til $\mathcal{C}$ hvis $\Hom( F ( A ), B )$ er i naturlig bijektion med $\Hom( A , G ( B ) )$ for alle $A , B$.  \act{Stopper op og siger i lavere tempo, som en sidebemærkning} Hvis i synes det er lidt forvirrende, vil jeg anbefale at i slukker jeres mobiler under forestillingen.
+
+%\says{F} Tensor er venstreadjungeret til Hom. 
+
+%\scene{Slide: Et kædekompleks. $\im \partial \subset \ker \partial$. $H_n$ af et kædekompleks}
+
+%\says{F} Et kædekompleks er ligesom en lang eksakt følge, men med billedet af $f$ en delmængde af kernen af $f$. \\
+%Homologien af et kædekompleks er kernen af $f$ mod billedet af $f$. \\ \act{Stopper op og siger i lavere tempo, som en sidebemærkning} Jeg skal forresten bede jer slukke jeres mobiler under forestillingen.
+
+
+\scene{Slide: Definitionen på eksakt, venstreeksakt, højreeksakt}
+
+\says{F} En funktor er eksakt hvis den bevarer korte eksakte følger, venstre eller højreeksakt hvis den kun bevarer det ene nul.
+
+\scene{Slide: En kort eksakt følge som tensoreres og et nul forsvinder. Samme med Hom}
+
+\says{F} Tensorprodukt og Hom er henholdsvis venstre og højreeksakt, ellers er det omvendt.
+
+\scene{Slide: En resolution af et modul}
+
+\says{F}[Op i tempo igen]  En resolution af et modul er et kædekompleks med nulte homologi lig $A$, $i$'te homologi lig 0 ellers.
+
+\scene{Slide: Konstruktionen af den vestreafledte funktor af $F$. ``Tilsvarende $R_nF$''}
+
+\says{F} De højre eller venstreafledte funktorer til en venstre eller højreeksakt funktor
+fås ved at tage en resolution af $A$ med injektive eller projektive moduler, bruge funktoren,
+og tage homologi.
+
+\scene{Slide: Definitionen af tor og ext}
+
+\says{F} De afledte funktorer til tensor og hom kaldes tor og ext, men det er velkendt fra Lineær Algebra. 
+
+\says{F}[Afslappet] Nu burde du være klar til revyen.
+
+\scene{Lys ned.}
+
+\end{sketch}
+\end{document}
